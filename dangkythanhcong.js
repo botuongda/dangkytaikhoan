@@ -10,6 +10,7 @@
 		for (var i = 0; i<ten.length; i++) {
 			chuoi += " " + ten[i]
 		}
+		$("#chuchay").html("Chúc mừng bạn - " +chuoi+  " đã đăng ký thành công chuyến du lịch tới Rio de Janeiro")
 		$(array[0]).html("Tên đăng ký là : " + chuoi);	
 		$(array[1]).html("Ngày " + str[1].split("=")[1] + " tháng " + str[2].split("=")[1] + " năm sinh " + str[3].split("=")[1]);		
 		$(array[2]).html("Địa chỉ email là: " + str[4].split("=")[1]);

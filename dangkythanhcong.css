@@ -4,6 +4,7 @@ html, body{
 	font-family: 'Gentium Book Basic', serif;
 	color: black;
 	background-image: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-301244.jpg);
+	z-index: -1;
 }
 *{
 	box-sizing: border-box;
@@ -31,4 +32,17 @@ input#dangnhap{
 }
 i {
 	color:red;
+}
+@keyframes dichuyen{
+	0%  {transform: translate(5px,0); opacity: 0.75;}
+    100%  {transform: translate(-300px,0);opacity: 0.25;}
+    
+}
+#chuchay {
+	color: red;
+	text-align: right;
+	padding-left: 0;
+	animation: dichuyen 4s cubic-bezier(0.4, 0, 1, 1) infinite;
+	opacity: 1;
+	font-size: 18px;
 }
