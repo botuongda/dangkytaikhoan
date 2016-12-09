@@ -3,7 +3,7 @@ html, body{
 	margin: 0;
 	font-family: 'Gentium Book Basic', serif;
 	color: white;
-	background-image: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-394974.jpg);
+	background-image: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-64119.jpg);
 }
 *{
 	box-sizing: border-box;
@@ -13,14 +13,14 @@ html, body{
 	margin: auto;
 }
 .main-content {
-	max-width: 50%;
+    max-width: 56%;
 	margin: auto;
 	padding-top: 220px;
 }
 input {
 	    margin: 13px;
 }
-input#nhap {
+input.nhap {
 		width: 239px;
 		height: 46px;
 		padding: 14px;
@@ -31,4 +31,7 @@ input#dangnhap{
 }
 i {
 	color:red;
+}
+span {
+	color: red;
 }
